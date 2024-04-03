@@ -5,15 +5,26 @@ This is one of my beginner projects to practice my SQL skills for data analysis.
 I do different queries about the information given. I practice the follow SQL methods:
 
 SELECT * FROM
+
 WHERE
+
 MAX()
+
 MIN()
+
 ORDER BY
+
 ASC
+
 DESC
+
 LIMIT
+
 SELECT DISTINCT
+
 UPDATE
+
 SET
+
 ALTER TABLE
 MODIFY
