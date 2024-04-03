@@ -1,0 +1,23 @@
+#Human Fall detection System for Elderly People
+
+The projectt describes a human fall detection system for elderly people using computer vision techniques. The main components are:
+
+1. Human Body Detection:
+- Explored various techniques like Haar Cascade, image segmentation, body landmark detection, Principal Component Analysis (PCA), and YOLO (You Only Look Once) object detection
+- Found YOLO to be the most suitable for accurate and fast human detection
+
+2. Methodology:
+- Used YOLO to detect human and extract features like body orientation angle, apparent length on floor, and common area with furniture
+- Developed an algorithm using these features to classify human posture as standing, sitting or fallen
+- Key steps: check if head above floor level, calculate angle range, check common area with furniture, calculate body length 
+
+3. Results and Discussion:
+- Demonstrated results on various posture scenarios like standing, sitting, and falling
+- Discussed limitations like failed human detection, sitting on floor detected as fall
+
+4. Future Scope and Conclusion:
+- Suggested improvements like using rotated images, integrating other sensing modalities 
+- Highlighted the low-cost and ease of deployment aspects
+- Concluded on achieving the goal of a visual fall detection system for elderly care
+
+The report provides a detailed account of the techniques explored, methodology developed, results obtained, and potential future enhancements for this application. The GitHub repository can include the report, any code files, trained models, and sample data used in the project.
