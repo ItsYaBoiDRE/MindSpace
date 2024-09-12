@@ -1,32 +1,11 @@
-# MySQL BASIC PROJECT
-walmart dataset my sql data analysis beginner project
+Here is a brief summary of the report:
 
-This is one of my beginner projects to practice my SQL skills for data analysis. It's about a short dataset from Kaggle website: https://www.kaggle.com/datasets/varsharam/walmart-sales-dataset-of-45stores
+The report presents a low-cost human fall detection system for elderly people using computer vision techniques. It explores various algorithms like Haar Cascade, image segmentation, body landmarks, PCA, and YOLO object detection for detecting human bodies in images/video. YOLO is found to be the most suitable technique. 
 
-I do different queries about the information given. I practice the follow SQL methods:
+The system uses YOLO to detect humans and extract features like body orientation angle, apparent length on the floor, and common area overlap with furniture objects. An algorithm is developed that classifies the detected human's posture as standing, sitting or fallen by analyzing these extracted features.
 
-SELECT * FROM
+The report discusses the methodology in detail, presents results on various posture scenarios, and highlights the limitations like failed human detection cases and inability to distinguish sitting on floor from fallen posture. 
 
-WHERE
+Future scope includes improvements like using rotated images, integrating other sensing modalities like microphones, and developing a standalone wall-mounted system using a camera and Raspberry Pi. 
 
-MAX()
-
-MIN()
-
-ORDER BY
-
-ASC
-
-DESC
-
-LIMIT
-
-SELECT DISTINCT
-
-UPDATE
-
-SET
-
-ALTER TABLE
-
-MODIFY
+The report concludes by highlighting the low-cost and easy deployment aspects of the proposed visual fall detection system tailored for elderly care.
